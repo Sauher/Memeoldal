@@ -1,0 +1,9 @@
+body{
+    background-color: #722E7F;
+}
+.flex-container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

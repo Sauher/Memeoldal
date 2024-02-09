@@ -2,8 +2,27 @@ body{
     background-color: #722E7F;
 }
 .flex-container{
-    
+    justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: auto 0;
+    
+}
+img{
+    height: 13em;
+    width: 20em;
+    margin: 0.2em;
+    margin-bottom: 1.9em;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    margin: 2em;
+}
+
+.freddy:hover{
+    
+    display: block;
 }

@@ -9,20 +9,70 @@ body{
     margin: auto 0;
     
 }
-img{
-    height: 13em;
-    width: 20em;
+.imag{
+    height: 18em;
+    width: 25em;
     margin: 0.2em;
     margin-bottom: 1.9em;
     
+    background-size:cover;
+    background-position: center;
+    
 }
+
 h1{
     text-align: center;
     color: white;
     margin: 2em;
 }
-
-.freddy:hover{
-    
-    display: block;
+.freddy{
+    background-image: url(./kepek/OMG\ GUYS\ IS\ THAT\ FREDDY\ FAZBEAR.jpg);   
 }
+.whistle{
+    background-image: url(./kepek/Whsitle.jpg);
+}
+.smurfcat{
+    background-image: url(./kepek/Smuvurf\ cavat.jpg);
+}
+.johnpork{
+    background-image: url(./kepek/John\ Pork.jpeg);
+}
+.bober{
+    background-image: url(./kepek/bober-kurwa.png);
+}
+.toothless{
+    background-image: url(./kepek/toothless.png);
+}
+.chipi{
+    background-image: url(./kepek/Chipi.jpg);
+}
+.bird{
+    background-image: url(./kepek/Erosion.jpg);
+}
+
+
+.freddy:hover{   
+    background-image: url(./Gifek/Freddy.gif);
+}
+.whistle:hover{
+    background-image: url(./Gifek/Whistle.gif);
+}
+.smurfcat:hover{
+    background-image: url(./Gifek/Smurfcat.gif);
+}
+.johnpork:hover{
+    background-image: url(./Gifek/John\ Pork.gif);
+}
+.bober:hover{
+    background-image: url(./Gifek/Bober.gif);
+}
+.toothless:hover{
+    background-image: url(./Gifek/Toothless.gif);
+}
+.chipi:hover{
+    background-image: url(./Gifek/Chipi.gif);
+}
+.bird:hover{
+    background-image: url(./Gifek/Bird.gif);
+}
+

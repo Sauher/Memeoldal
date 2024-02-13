@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./fooldal.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Meme oldal</title>
 </head>
 <body>
     <header>
-        <icon>
-            
-        </icon>
+        <div class="topnav">
+            <img src="./kepek/Logo.png" class="logo" alt="">
+            <div id="myLinks">
+                    <a href="index.html">Memehub</a>
+                    <a href="rolunk.html">Rólunk</a>
+                    <a href="forrasok.html">Források</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
         <menu>
             <div class = "gomb">
                 <a href="index.html">Memehub</a>
@@ -38,7 +47,16 @@
             <div class="bird imag"></div>
         </div>
     </main>
-    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
         
         
 </body>

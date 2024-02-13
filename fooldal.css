@@ -32,7 +32,14 @@ h1{
     background-image: url(./kepek/Whsitle.jpg);
 }
 .smurfcat{
-    background-image: url(./kepek/Smuvurf\ cavat.jpg);
+    
+    animation: infinite;
+    position: relative;
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-name:KAT;
+    animation-duration: 5s;
+    
 }
 .johnpork{
     background-image: url(./kepek/John\ Pork.jpeg);
@@ -59,6 +66,8 @@ h1{
 }
 .smurfcat:hover{
     background-image: url(./Gifek/Smurfcat.gif);
+    animation-name: kat;
+    animation-play-state: paused;
 }
 .johnpork:hover{
     background-image: url(./Gifek/John\ Pork.gif);
@@ -74,5 +83,32 @@ h1{
 }
 .bird:hover{
     background-image: url(./Gifek/Bird.gif);
+}
+
+@keyframes KAT{
+    0%{
+        background-image: url(./kepek/Smuvurf\ cavat.jpg);
+        
+    }
+    
+    60%{
+        background-image: url(./kepek/Pineappleowl.png);
+    }
+    100%{     
+        
+        background-image: url(./kepek/strawberryelephant.png);
+        
+    }
+        
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    
+    to {
+      opacity: 1;
+    }
 }
 

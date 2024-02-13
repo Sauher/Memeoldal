@@ -24,9 +24,15 @@ a{
     color: white;
     text-decoration: none;
 }
+.logo{
+    height: 5vh;
+}
 .gomb:hover{
     background-color: #666666;
     border-color: white ;
+}
+.topnav{
+    display: none;
 }
 @media only screen and (max-width: 1050px) {
     a{
@@ -45,7 +51,36 @@ a{
     }
   }
 @media only screen and (max-width: 686px) {
-    a{
-        font-size: 1em;
-    }
+        .gomb{
+            display: none;
+        }
+        .topnav {
+            margin-top: -8px;
+            margin-left: -7px;
+            margin-right: -7px;
+            display: flex;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(90deg, rgba(148,34,188,1) 0%, rgba(68,68,68,1) 73%);
+          }
+          
+          .topnav #myLinks {
+            display: none;
+          }
+          
+          .topnav a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+          }
+          
+          .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
   }

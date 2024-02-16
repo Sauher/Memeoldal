@@ -25,7 +25,8 @@ a{
     text-decoration: none;
 }
 .logo{
-    height: 5vh;
+  
+  height: 6vh;
 }
 .gomb:hover{
     background-color: #666666;

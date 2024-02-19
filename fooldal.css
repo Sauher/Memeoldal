@@ -19,6 +19,25 @@ body{
     background-position: center;
     
 }
+.bezaras{
+    position: relative;
+    
+  }
+.leiras{
+    position: absolute;
+    text-align: center;
+    
+    background: rgba(109, 109, 109, 0.72);
+    color: #fff;
+    bottom: 4.5%;
+    left: 0.3%;
+    margin-left: 2px;
+    visibility: hidden;
+    opacity: 0;
+    width: 25em;
+    height: 20%;
+    
+}
 
 h1{
     text-align: center;
@@ -86,19 +105,27 @@ h1{
     background-image: url(./Gifek/Bird.gif);
 }
 
+.bezaras:hover .leiras{
+    visibility: visible;
+    opacity: 1;
+}
+
 @keyframes KAT{
     0%{
         background-image: url(./kepek/Smuvurf\ cavat.jpg);
         
     }
     
-    70%{
+    33%{
         background-image: url(./kepek/Pineappleowl.png);
     }
-    100%{     
+    66%{     
         
         background-image: url(./kepek/strawberryelephant.png);
         
+    }
+    100%{
+        background-image: url(./kepek/Smuvurf\ cavat.jpg);
     }
         
 }

@@ -14,9 +14,14 @@ h1{
     text-align: left;
     color: white;
     margin-left: 10px;
+    margin-bottom: 0px;
     font-family: "Noto Sans", sans-serif;
 }
 
 #margin {
     margin-bottom: 100px;
+}
+
+.link{
+    font-size: 0.5em;
 }

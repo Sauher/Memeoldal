@@ -29,6 +29,7 @@ h1{
     color: white;
 }
 
-p {
-    margin: 0 auto;
+p, ul {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }

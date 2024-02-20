@@ -8,8 +8,13 @@ menu{
     margin-left: -8px;
     height: 8vw;
 }
-a{  
-    display: block;
+.logonagy{
+  height: 120%;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+.az{  
+    display: flex;
     margin-left: 3vw;
     margin-right: 3vw;
     margin-bottom: 1vw;
@@ -22,6 +27,7 @@ a{
     color: white;
     text-decoration: none;
     font-family: "Noto Sans", sans-serif;
+    background-color: black ;
 }
 .logo{
   

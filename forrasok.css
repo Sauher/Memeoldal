@@ -1,5 +1,7 @@
 body{
     background-color: #722E7F;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
 }
 
 .flex-container{
@@ -19,9 +21,15 @@ h1{
 }
 
 #margin {
-    margin-bottom: 100px;
+    margin-bottom: 1em;
 }
 
 .link{
     font-size: 0.5em;
+    color: white;
+}
+
+p, ul {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }

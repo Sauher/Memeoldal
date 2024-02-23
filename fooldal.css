@@ -30,7 +30,6 @@ body{
     position: absolute;
     text-align: center;
     background: rgba(109, 109, 109, 0.72);
-    color: #fff;
     top: 50.6%;
     font-size: 200%;
     left: 0.3%;
@@ -40,7 +39,32 @@ body{
     width: 98.5%;
     height: 30%;
 }
-
+.szoveg{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 60%;
+    font-size: 200%;
+    left: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.szoveg2{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 55%;
+    font-size: 188%;
+    left: 0.1%;
+    margin-left: 2px;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    
+}
 h1{
     text-align: center;
     color: white;
@@ -108,6 +132,14 @@ h1{
 }
 
 .bezaras:hover .leiras{
+    visibility: visible;
+    opacity: 1;
+}
+.bezaras:hover .szoveg{
+    visibility: visible;
+    opacity: 1;
+}
+.bezaras:hover .szoveg2{
     visibility: visible;
     opacity: 1;
 }

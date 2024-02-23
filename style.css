@@ -10,7 +10,7 @@ menu{
     width: 100%;
 }
 .logonagy{
-  height: 9.8vh;
+  height: 9.9vh;
   margin-top: -8px;
   margin-left: -8px;
 }
@@ -50,7 +50,7 @@ menu{
 .topnav{
     display: none;
 }
-@media only screen and (max-width: 686px) {
+@media only screen and (max-width: 1000px) {
         .gomb{
             display: none; 
         }
@@ -75,25 +75,33 @@ menu{
           }
           
           .topnav a {
+            padding-left: 5px;
             border: none;
             border-radius: 0px;
             text-decoration: none;
             font-size: 3vw;
             display: block;
+            padding-top: 20px;
+          }
+          .topnav a:first-child{
+            padding-top: 5px;
+          }
+          .topnav a:last-child{
+            padding-bottom: 5px;
           }
           
           .topnav a.icon {
             top: 0;
             right: 0;
-            font-size: 3.5vh;
-            height: 6.3vh;
+            font-size: 3vh;
+            height: 5vh;
             color: white;
             border: none;
             border-radius: 0px;
             margin: 0px;
-            padding-top: 2vw;
-            padding-left: 2vw;
-            padding-right: 2vw;
+            padding-top: 1vh;
+            padding-left: 1vh;
+            padding-right: 1vh;
             background: black;
             display: block;
             position: absolute;

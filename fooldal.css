@@ -30,42 +30,35 @@ body{
 .leiras{
     position: absolute;
     text-align: center;
+    color: white;
     background: rgba(109, 109, 109, 0.72);
-    top: 50.6%;
+    top: 60.6%;
     font-size: 200%;
-    left: 0.3%;
-    margin-left: 2px;
+    left: 0.8%;
+    margin: 0 auto;
     visibility: hidden;
     opacity: 0;
     width: 98.5%;
     height: 30%;
 }
-.szoveg{
+.leiras2{
     position: absolute;
-    color: white;
     text-align: center;
-    top: 60%;
-    font-size: 200%;
-    left: 35%;
-    margin-left: auto;
-    margin-right: auto;
+    color: white;
+    background: rgba(109, 109, 109, 0.72);
+    top: 60.6%;
+    font-size: 130%;
+    left: 0.8%;
     visibility: hidden;
     opacity: 0;
-    
+    width: 98.5%;
+    height: 30%;
+    padding: 0%;
 }
-.szoveg2{
-    position: absolute;
-    color: white;
-    text-align: center;
-    top: 55%;
-    font-size: 188%;
-    left: 0.1%;
-    margin-left: 2px;
-    visibility: hidden;
-    opacity: 0;
-    width: 100%;
+
     
-}
+
+
 h1{
     text-align: center;
     color: white;
@@ -102,48 +95,66 @@ h1{
     background-image: url(./kepek/Erosion.jpg);
 }
 
-
-.freddy:hover{   
+.bezaras:hover .freddy{
+    transition: transform .2s;
     background-image: url(./Gifek/Freddy.gif);
+    transform: scale(1.1);
+    
 }
-.whistle:hover{
+.bezaras:hover .whistle{
     background-image: url(./Gifek/Whistle.gif);
+    transition: transform .2s;
+    transform: scale(1.1);
 }
-.smurfcat:hover{   
+.bezaras:hover .smurfcat{   
     animation-name: kat;
     animation-play-state: paused;
     animation-name: GIFEK;
     animation-play-state: running;
     animation-duration: 18s;
+    transition: transform .2s;
+    transform: scale(1.1);
 }
-.johnpork:hover{
+.bezaras:hover .johnpork{
     background-image: url(./Gifek/John\ Pork.gif);
+    transition: transform .2s;
+    transform: scale(1.1);
 }
-.bober:hover{
+.bezaras:hover .bober{
     background-image: url(./Gifek/Bober.gif);
+    transition: transform .2s;
+    transform: scale(1.1);
 }
-.toothless:hover{
+.bezaras:hover .toothless{
     background-image: url(./Gifek/Toothless.gif);
+    transition: transform .2s;
+    transform: scale(1.1);
 }
-.chipi:hover{
+.bezaras:hover .chipi{
     background-image: url(./Gifek/Chipi.gif);
+    transition: transform .2s;
+    transform: scale(1.1);
 }
-.bird:hover{
+.bezaras:hover .bird{
     background-image: url(./Gifek/Bird.gif);
+    transition: transform .2s;
+    transform: scale(1.1);
 }
 
 .bezaras:hover .leiras{
     visibility: visible;
     opacity: 1;
+    transition: transform .2s;
+    transform: scale(1.1);
 }
-.bezaras:hover .szoveg{
+.bezaras:hover .leiras2{
     visibility: visible;
     opacity: 1;
+    transition: transform .2s;
+    transform: scale(1.1);
 }
-.bezaras:hover .szoveg2{
-    visibility: visible;
-    opacity: 1;
-}
+
+
 
 @keyframes KAT{
     0%{

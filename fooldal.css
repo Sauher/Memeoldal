@@ -99,12 +99,15 @@ h1{
     transition: transform .2s;
     background-image: url(./Gifek/Freddy.gif);
     transform: scale(1.1);
+    z-index: 2;
     
 }
 .bezaras:hover .whistle{
     background-image: url(./Gifek/Whistle.gif);
     transition: transform .2s;
     transform: scale(1.1);
+    z-index: 2;
+    
 }
 .bezaras:hover .smurfcat{   
     animation-name: kat;
@@ -114,31 +117,38 @@ h1{
     animation-duration: 18s;
     transition: transform .2s;
     transform: scale(1.1);
+    z-index: 2;
+    
 }
 .bezaras:hover .johnpork{
     background-image: url(./Gifek/John\ Pork.gif);
     transition: transform .2s;
     transform: scale(1.1);
+    z-index: 2;
 }
 .bezaras:hover .bober{
     background-image: url(./Gifek/Bober.gif);
     transition: transform .2s;
     transform: scale(1.1);
+    z-index: 2;
 }
 .bezaras:hover .toothless{
     background-image: url(./Gifek/Toothless.gif);
     transition: transform .2s;
     transform: scale(1.1);
+    z-index: 2;
 }
 .bezaras:hover .chipi{
     background-image: url(./Gifek/Chipi.gif);
     transition: transform .2s;
     transform: scale(1.1);
+    z-index: 2;
 }
 .bezaras:hover .bird{
     background-image: url(./Gifek/Bird.gif);
     transition: transform .2s;
     transform: scale(1.1);
+    z-index: 2;
 }
 
 .bezaras:hover .leiras{
@@ -146,12 +156,14 @@ h1{
     opacity: 1;
     transition: transform .2s;
     transform: scale(1.1);
+    z-index: 3;
 }
 .bezaras:hover .leiras2{
     visibility: visible;
     opacity: 1;
     transition: transform .2s;
     transform: scale(1.1);
+    z-index: 3;
 }
 
 

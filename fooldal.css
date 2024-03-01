@@ -32,31 +32,31 @@ body{
     text-align: center;
     color: white;
     background: rgba(109, 109, 109, 0.72);
-    top: 60.6%;
+    top: 65.6%;
     font-size: 200%;
     left: 0.8%;
-    margin: 0 auto;
     visibility: hidden;
     opacity: 0;
     width: 98.5%;
-    height: 30%;
+    height: 18%;
+    
 }
 .leiras2{
     position: absolute;
     text-align: center;
     color: white;
     background: rgba(109, 109, 109, 0.72);
-    top: 60.6%;
+    top: 65.6%;
     font-size: 130%;
-    left: 0.8%;
+    left: 0.77%;
     visibility: hidden;
     opacity: 0;
     width: 98.5%;
-    height: 30%;
+    height: 18%;
     padding: 0%;
 }
 
-    
+
 
 
 h1{

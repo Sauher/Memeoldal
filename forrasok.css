@@ -2,6 +2,7 @@ body{
     background-color: #722E7F;
     font-family: "Noto Sans", sans-serif;
     color: white;
+    font-weight: bolder;
 }
 
 .flex-container{

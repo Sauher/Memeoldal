@@ -38,7 +38,7 @@ body{
     visibility: hidden;
     opacity: 0;
     width: 98.5%;
-    height: 18%;
+    height: 28.3%;
     
 }
 .leiras2{
@@ -52,8 +52,9 @@ body{
     visibility: hidden;
     opacity: 0;
     width: 98.5%;
-    height: 18%;
-    padding: 0%;
+    height: 28.3%;
+    line-height: 110%;
+    margin: 0 auto;
 }
 
 

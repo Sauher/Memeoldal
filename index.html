@@ -42,6 +42,9 @@
                 <div class="freddy imag"></div>      
                 <div class="leiras">
                   Freddy
+                  <audio>
+                     <source src="./Hangok/Freddy.mp3">
+                  </audio>
                 </div>
               
               </div>
@@ -59,7 +62,7 @@
               <div class="bezaras">
                 <div class="smurfcat imag"></div>
                 <div class="leiras2">
-                    Smurfcat, Strawberry elephant, Pineapple owl
+                    <p>Smurfcat, Strawberry elephant, Pineapple owl</p> 
                 </div>
               </div>  
             </a>
@@ -115,6 +118,13 @@
           }
         }
         </script>
+    <script>
+       var Freddyhar= $("#har")[0];
+       $(".bezaras")
+       .mouseenter(function(){
+          Freddyhar.play();
+       });
+    </script>
         
         
 </body>

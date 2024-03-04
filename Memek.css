@@ -5,24 +5,48 @@ body{
     font-weight:bolder  ;
 }
 h1{
-    font-size: 5vh;
+    font-size: 6vw;
 }
 sum{
-    font-size: 2vh;
+    font-size: 3vw;
 }
 table{
     border: 2px solid white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 26vw;
+    border-radius: 20px;
 }
 a{
     color: white;
     text-decoration: none;
 }
+th{
+    font-size: 3.5vw;
+}
 td{
+    border-top: 2px solid white;
+    font-size: 3vw;
     padding-top: 7px;
     text-indent: 4px;
 }
 td:last-child{
     padding-bottom: 3px;
+}
+.fel{
+    width: 50%;
+}
+hr{
+    height: 3px;
+    background-color: white;
+}
+.felfloat{
+    float: right;
+    width: 50%;
+}
+.kepek{
+    height: 7vh;
+    display: inline;
+}
+.flex{
+    flex-direction: column;
 }

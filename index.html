@@ -46,7 +46,7 @@
               </div>
             </a>
             <a href="./forrasok.html">
-              <div class="bezaras">
+              <div class="bezaras" onmouseover="whistle()" onmouseout="whistlestop()">
                 <div class="whistle imag"></div>
                 <div class="leiras">
                     <p>Whistle</p>
@@ -55,14 +55,14 @@
               </div>
             </a>
             <a href="./forrasok.html">
-              <div class="bezaras">
+              <div class="bezaras" onmouseover="smurf()" onmouseout="smurfstop()">
                 <div class="smurfcat imag"></div>
                 <div class="leiras2">
                     <p>Smurfcat, Strawberry elephant, Pineapple owl</p> 
                 </div>
               </div>  
             </a>
-            <a href="./forrasok.html">
+            <a href="./forrasok.html" onmouseover="johnpork()" onmouseout="johnporkstop()">
               <div class="bezaras">
                 <div class="johnpork imag"></div>
                 <div class="leiras">
@@ -70,7 +70,7 @@
                 </div>
               </div>
             </a>
-            <a href="./forrasok.html">
+            <a href="./forrasok.html" onmouseover="bober()" onmouseout="boberstop()">
               <div class="bezaras">
                 <div class="bober imag"></div>
                 <div class="leiras">
@@ -78,7 +78,7 @@
                 </div>
               </div>
             </a>
-            <a href="./forrasok.html">
+            <a href="./forrasok.html" onmouseover="toothless()" onmouseout="toothlessstop()">
               <div class="bezaras">
                 <div class="toothless imag"></div>
                 <div class="leiras">
@@ -86,7 +86,7 @@
                 </div>
               </div>
             </a>
-            <a href="./forrasok.html">
+            <a href="./forrasok.html" onmouseover="chipi()" onmouseout="chipistop()">
               <div class="bezaras">
                 <div class="chipi imag"></div>
                 <div class="leiras">
@@ -94,7 +94,7 @@
                 </div>
               </div>
             </a>
-            <a href="./forrasok.html">
+            <a href="./forrasok.html" onmouseover="bird()" onmouseout="birdstop()">
               <div class="bezaras">
                 <div class="bird imag"></div>
                 <div class="leiras">
@@ -114,14 +114,79 @@
           }
         }
         
-        let Freddyhar= new Audio ("./Hangok/Freddy.mp3");
-        function har(){          
-          Freddyhar.play();
+        let Freddyhar= new Audio ("/Hangok/Freddy.mp3");
+        let whistlesound = new Audio ("/Hangok/Whistle.mp3");
+        let chipichapa = new Audio ("/Hangok/chipichipi.mp3");
+        let Johnporkcall = new Audio ("/Hangok/JohnPork.mp3");
+        let Smurfing = new Audio ("/Hangok/Smurfcat.mp3");
+        let Boberer = new Audio ("/Hangok/Bober.mp3");
+        let toothlessdance = new Audio ("/Hangok/Toothless.mp3");
+        let  opiumcopium= new Audio ("/Hangok/Opiumbird.mp3");
+
+        function har(){        
+          Freddyhar.play();    
         };       
         function harstop(){
           Freddyhar.pause();
-          Freddyhar.currentTime=0;
+          Freddyhar.currentTime=0;         
+        };
+
+        function whistle(){
+          whistlesound.play();
         }
+        function whistlestop(){
+          whistlesound.pause();
+          whistlesound.currentTime=0;
+        };
+
+        function smurf(){
+          Smurfing.play();
+        };
+        function smurfstop(){
+          Smurfing.pause();
+          Smurfing.currentTime =0;
+        };
+
+        function johnpork(){
+          Johnporkcall.play();
+        };
+        function johnporkstop(){
+          Johnporkcall.pause();
+          Johnporkcall.currentTime=0;
+        }
+
+        function bober(){
+          Boberer.play();
+        };
+        function boberstop(){
+          Boberer.pause();
+          Boberer.currentTime=0;
+        };
+
+        function toothless(){
+          toothlessdance.play();
+        };
+        function toothlessstop(){
+          toothlessdance.pause();
+          toothlessdance.currentTime=0;
+        };
+
+        function chipi(){
+          chipichapa.play();
+        };
+        function chipistop(){
+          chipichapa.pause();
+          chipichapa.currentTime=0;
+        };
+        
+        function bird(){
+          opiumcopium.play();
+        };
+        function birdstop(){
+          opiumcopium.pause();
+          opiumcopium.currentTime=0;
+        };
+
         
     </script>
     

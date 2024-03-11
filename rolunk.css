@@ -1,0 +1,12 @@
+body{
+    font-weight:bolder  ;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+}
+.oszlop{
+    width: 33.3%;
+    float: left;
+}
+.oliver{
+    width: 5vh;
+}

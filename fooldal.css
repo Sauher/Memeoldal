@@ -1,6 +1,7 @@
 body{
     background-color: #722E7F;
     font-family: "Noto Sans", sans-serif;
+    font-weight:bolder  ;
 }
 .flex-container{
     justify-content: center;

@@ -34,18 +34,17 @@ td:last-child{
 }
 .fel{
     width: 50%;
+    float: left;
 }
 hr{
     height: 3px;
     background-color: white;
 }
-.felfloat{
-    float: right;
-    width: 50%;
-}
+
 .kepek{
-    height: 7vh;
-    display: inline;
+    float: right;
+    height: 13vh;
+    display: block;
 }
 .flex{
     flex-direction: column;

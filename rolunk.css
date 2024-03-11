@@ -2,11 +2,13 @@ body{
     font-weight:bolder  ;
     font-family: "Noto Sans", sans-serif;
     color: white;
+    background-color: #722E7F;
 }
 .oszlop{
     width: 33.3%;
     float: left;
 }
 .oliver{
-    width: 5vh;
+    display: block;
+    width: 10vh;
 }

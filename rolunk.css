@@ -9,10 +9,19 @@ body{
     float: left;
 }
 .oliver{
+    padding-left: 40px;
     display: block;
-    width: 10vh;
+    width: 20vh;
 }
 .beni{
     display: block;
-    width: 10vh;
+    width: 20vh;
+    padding-left: 40px;
+}
+main{
+    padding-top: 50px;
+}
+.geri{
+    padding-left: 40px;
+    width: 20vh;
 }

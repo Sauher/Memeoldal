@@ -1,197 +1,201 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./fooldal.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Meme oldal</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./fooldal.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Meme oldal</title>
 </head>
+
 <body>
-    <header>
-        <div class="topnav">
-            <img src="./kepek/Logo.png" class="logo" alt="">
-            <div id="myLinks">
-                    <a href="index.html" class="az2">Memehub</a>
-                    <a href="rolunk.html" class="az2">Rólunk</a>
-                    <a href="forrasok.html" class="az2">Források</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()" allow="autoplay">
-              <i class="fa fa-bars"></i>
-            </a>
+  <header>
+    <div class="topnav">
+      <img src="./kepek/Logo.png" class="logo" alt="">
+      <div id="myLinks">
+        <a href="index.html" class="az2">Memehub</a>
+        <a href="rolunk.html" class="az2">Rólunk</a>
+        <a href="forrasok.html" class="az2">Források</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()" allow="autoplay">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <menu>
+      <div class="flex-containeri">
+        <img src="./kepek/Logo.png" class="logonagy" alt="Logo">
+        <a href="index.html" class="az arnyek" id="balos">Memehub</a>
+        <a href="rolunk.html" class="az arnyek">Rólunk</a>
+        <a href="forrasok.html" class="az arnyek">Források</a>
+      </div>
+    </menu>
+  </header>
+  <main>
+    <h1>Memepedia</h1>
+    <h2>Felkapott mémek egy helyen</h2>
+    <div class="flex-container">
+      <a href="Meme_template.html">
+        <div class="bezaras" onmouseover="har()" onmouseout="harstop()" allow="autoplay">
+          <div class="freddy imag arnyek"></div>
+          <div class="leiras">
+            <p>Freddy Fazbear</p>
           </div>
-        <menu>
-          <div class="flex-containeri">
-                <img src="./kepek/Logo.png" class="logonagy" alt="Logo">
-                <a href="index.html" class="az" id="balos">Memehub</a>
-                <a href="rolunk.html" class="az">Rólunk</a>
-                <a href="forrasok.html" class="az">Források</a>
-              </div>
-        </menu>
-    </header>
-    <main>
-        <h1>Memepedia</h1>
-        <h2>Felkapott mémek egy helyen</h2>
-        <div class="flex-container">
-            <a href="Meme_template.html">
-              <div class="bezaras" onmouseover="har()" onmouseout="harstop()" allow="autoplay">
-                <div class="freddy imag"></div>      
-                <div class="leiras">
-                  <p>Freddy Fazbear</p>
-                </div>                         
-              </div>
-            </a>
-            <a href="./forrasok.html">
-              <div class="bezaras" onmouseover="whistle()" onmouseout="whistlestop()" allow="autoplay">
-                <div class="whistle imag"></div>
-                <div class="leiras">
-                    <p>Whistle</p>
-                </div>
-              
-              </div>
-            </a>
-            <a href="./forrasok.html">
-              <div class="bezaras" onmouseover="smurf()" onmouseout="smurfstop()" allow="autoplay">
-                <div class="smurfcat imag"></div>
-                <div class="leiras2">
-                    <p>Smurf Cat, Strawberry Elephant, Pineapple Owl</p> 
-                </div>
-              </div>  
-            </a>
-            <a href="./forrasok.html" onmouseover="johnpork()" onmouseout="johnporkstop()" allow="autoplay">
-              <div class="bezaras">
-                <div class="johnpork imag"></div>
-                <div class="leiras">
-                    <p>John Pork</p>
-                </div>
-              </div>
-            </a>
-            <a href="./forrasok.html" onmouseover="bober()" onmouseout="boberstop()" allow="autoplay">
-              <div class="bezaras">
-                <div class="bober imag"></div>
-                <div class="leiras">
-                    <p>Bober</p>
-                </div>
-              </div>
-            </a>
-            <a href="./forrasok.html" onmouseover="toothless()" onmouseout="toothlessstop()" allow="autoplay">
-              <div class="bezaras">
-                <div class="toothless imag"></div>
-                <div class="leiras">
-                    <p>Toothless Dance</p>
-                </div>
-              </div>
-            </a>
-            <a href="./forrasok.html" onmouseover="chipi()" onmouseout="chipistop()" allow="autoplay">
-              <div class="bezaras">
-                <div class="chipi imag"></div>
-                <div class="leiras">
-                    <p>Chipi chipi</p>
-                </div>
-              </div>
-            </a>
-            <a href="./forrasok.html" onmouseover="bird()" onmouseout="birdstop()" allow="autoplay"> 
-              <div class="bezaras">
-                <div class="bird imag"></div>
-                <div class="leiras">
-                    <p>Opium Bird</p>
-                </div>
-              </div>
-            </a>
         </div>
-    </main>
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
-        
-        let Freddyhar= new Audio ("./Hangok/Freddy.mp3");
-        let whistlesound = new Audio ("./Hangok/Whistle.mp3");
-        let chipichapa = new Audio ("./Hangok/chipichipi.mp3");
-        let Johnporkcall = new Audio ("./Hangok/JohnPork.mp3");
-        let Smurfing = new Audio ("./Hangok/Smurfcat.mp3");
-        let Boberer = new Audio ("./Hangok/Bober.mp3");
-        let toothlessdance = new Audio ("./Hangok/Toothless.mp3");
-        let  opiumcopium= new Audio ("./Hangok/Opiumbird.mp3");
+      </a>
+      <a href="./forrasok.html">
+        <div class="bezaras" onmouseover="whistle()" onmouseout="whistlestop()" allow="autoplay">
+          <div class="whistle imag arnyek"></div>
+          <div class="leiras">
+            <p>Whistle</p>
+          </div>
 
-        function har(){        
-          Freddyhar.play();    
-        };       
-        function harstop(){
-          Freddyhar.pause();
-          Freddyhar.currentTime=0;         
-        };
+        </div>
+      </a>
+      <a href="./forrasok.html">
+        <div class="bezaras" onmouseover="smurf()" onmouseout="smurfstop()" allow="autoplay">
+          <div class="smurfcat imag arnyek"></div>
+          <div class="leiras2">
+            <p>Smurf Cat, Strawberry Elephant, Pineapple Owl</p>
+          </div>
+        </div>
+      </a>
+      <a href="./forrasok.html" onmouseover="johnpork()" onmouseout="johnporkstop()" allow="autoplay">
+        <div class="bezaras">
+          <div class="johnpork imag arnyek"></div>
+          <div class="leiras">
+            <p>John Pork</p>
+          </div>
+        </div>
+      </a>
+      <a href="./forrasok.html" onmouseover="bober()" onmouseout="boberstop()" allow="autoplay">
+        <div class="bezaras">
+          <div class="bober imag arnyek"></div>
+          <div class="leiras">
+            <p>Bober</p>
+          </div>
+        </div>
+      </a>
+      <a href="./forrasok.html" onmouseover="toothless()" onmouseout="toothlessstop()" allow="autoplay">
+        <div class="bezaras">
+          <div class="toothless imag arnyek"></div>
+          <div class="leiras">
+            <p>Toothless Dance</p>
+          </div>
+        </div>
+      </a>
+      <a href="./forrasok.html" onmouseover="chipi()" onmouseout="chipistop()" allow="autoplay">
+        <div class="bezaras">
+          <div class="chipi imag arnyek"></div>
+          <div class="leiras">
+            <p>Chipi chipi</p>
+          </div>
+        </div>
+      </a>
+      <a href="./forrasok.html" onmouseover="bird()" onmouseout="birdstop()" allow="autoplay">
+        <div class="bezaras">
+          <div class="bird imag arnyek"></div>
+          <div class="leiras">
+            <p>Opium Bird</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </main>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
 
-        function whistle(){
-          whistlesound.play();
-        }
-        function whistlestop(){
-          whistlesound.pause();
-          whistlesound.currentTime=0;
-        };
+    let Freddyhar = new Audio("./Hangok/Freddy.mp3");
+    let whistlesound = new Audio("./Hangok/Whistle.mp3");
+    let chipichapa = new Audio("./Hangok/chipichipi.mp3");
+    let Johnporkcall = new Audio("./Hangok/JohnPork.mp3");
+    let Smurfing = new Audio("./Hangok/Smurfcat.mp3");
+    let Boberer = new Audio("./Hangok/Bober.mp3");
+    let toothlessdance = new Audio("./Hangok/Toothless.mp3");
+    let opiumcopium = new Audio("./Hangok/Opiumbird.mp3");
 
-        function smurf(){
-          Smurfing.play();
-        };
-        function smurfstop(){
-          Smurfing.pause();
-          Smurfing.currentTime =0;
-        };
+    function har() {
+      Freddyhar.play();
+    };
+    function harstop() {
+      Freddyhar.pause();
+      Freddyhar.currentTime = 0;
+    };
 
-        function johnpork(){
-          Johnporkcall.play();
-        };
-        function johnporkstop(){
-          Johnporkcall.pause();
-          Johnporkcall.currentTime=0;
-        }
+    function whistle() {
+      whistlesound.play();
+    }
+    function whistlestop() {
+      whistlesound.pause();
+      whistlesound.currentTime = 0;
+    };
 
-        function bober(){
-          Boberer.play();
-        };
-        function boberstop(){
-          Boberer.pause();
-          Boberer.currentTime=0;
-        };
+    function smurf() {
+      Smurfing.play();
+    };
+    function smurfstop() {
+      Smurfing.pause();
+      Smurfing.currentTime = 0;
+    };
 
-        function toothless(){
-          toothlessdance.play();
-        };
-        function toothlessstop(){
-          toothlessdance.pause();
-          toothlessdance.currentTime=0;
-        };
+    function johnpork() {
+      Johnporkcall.play();
+    };
+    function johnporkstop() {
+      Johnporkcall.pause();
+      Johnporkcall.currentTime = 0;
+    }
 
-        function chipi(){
-          chipichapa.play();
-        };
-        function chipistop(){
-          chipichapa.pause();
-          chipichapa.currentTime=0;
-        };
-        
-        function bird(){
-          opiumcopium.play();
-        };
-        function birdstop(){
-          opiumcopium.pause();
-          opiumcopium.currentTime=0;
-        };
+    function bober() {
+      Boberer.play();
+    };
+    function boberstop() {
+      Boberer.pause();
+      Boberer.currentTime = 0;
+    };
 
-        
-    </script>
-    
-        
-        
+    function toothless() {
+      toothlessdance.play();
+    };
+    function toothlessstop() {
+      toothlessdance.pause();
+      toothlessdance.currentTime = 0;
+    };
+
+    function chipi() {
+      chipichapa.play();
+    };
+    function chipistop() {
+      chipichapa.pause();
+      chipichapa.currentTime = 0;
+    };
+
+    function bird() {
+      opiumcopium.play();
+    };
+    function birdstop() {
+      opiumcopium.pause();
+      opiumcopium.currentTime = 0;
+    };
+
+
+  </script>
+
+
+
 </body>
+
 </html>

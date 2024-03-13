@@ -1,34 +1,44 @@
-body{
+body {
     background-color: #722E7F;
     font-family: "Noto Sans", sans-serif;
-    font-weight:bolder  ;
+    font-weight: bolder;
+    color: white;
 }
-.flex-container{
+
+.flex-container {
     justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto 0;
-    
+
 }
-.imag{
+
+h2 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.imag {
     height: 18em;
     width: 25em;
     margin: 0.2em;
     margin-bottom: 1.9em;
-    
-    background-size:cover;
+
+    background-size: cover;
     background-position: center;
-    
+
 }
-.bezaras{
+
+.bezaras {
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
-  }
-.leiras{
+
+}
+
+.leiras {
     position: absolute;
     text-align: center;
     color: white;
@@ -41,9 +51,10 @@ body{
     width: 98.5%;
     line-height: 80%;
     height: 28%;
-    
+
 }
-.leiras2{
+
+.leiras2 {
     position: absolute;
     text-align: center;
     color: white;
@@ -62,57 +73,67 @@ body{
 
 
 
-h1{
+h1 {
     text-align: center;
     color: white;
     margin: 2em;
 }
-.freddy{
-    background-image: url(./kepek/OMG\ GUYS\ IS\ THAT\ FREDDY\ FAZBEAR.jpg);   
+
+.freddy {
+    background-image: url(./kepek/OMG\ GUYS\ IS\ THAT\ FREDDY\ FAZBEAR.jpg);
 }
-.whistle{
+
+.whistle {
     background-image: url(./kepek/Whsitle.jpg);
 }
-.smurfcat{
-    
+
+.smurfcat {
+
     animation: infinite;
     position: relative;
-    
-    animation-name:KAT;
+
+    animation-name: KAT;
     animation-duration: 5s;
-    
+
 }
-.johnpork{
+
+.johnpork {
     background-image: url(./kepek/John\ Pork.jpeg);
 }
-.bober{
+
+.bober {
     background-image: url(./kepek/bober-kurwa.png);
 }
-.toothless{
+
+.toothless {
     background-image: url(./kepek/toothless.png);
 }
-.chipi{
+
+.chipi {
     background-image: url(./kepek/Chipi.jpg);
 }
-.bird{
+
+.bird {
     background-image: url(./kepek/Erosion.jpg);
 }
 
-.bezaras:hover .freddy{
+.bezaras:hover .freddy {
     transition: transform .2s;
     background-image: url(./Gifek/Freddy.gif);
     transform: scale(1.1);
     z-index: 2;
-    
+
 }
-.bezaras:hover .whistle{
+
+.bezaras:hover .whistle {
     background-image: url(./Gifek/Whistle.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
-    
+
 }
-.bezaras:hover .smurfcat{   
+
+.bezaras:hover .smurfcat {
     animation-name: kat;
     animation-play-state: paused;
     animation-name: GIFEK;
@@ -121,47 +142,45 @@ h1{
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
-    
+
 }
-.bezaras:hover .johnpork{
+
+.bezaras:hover .johnpork {
     background-image: url(./Gifek/John\ Pork.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
 }
-.bezaras:hover .bober{
+
+.bezaras:hover .bober {
     background-image: url(./Gifek/Bober.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
 }
-.bezaras:hover .toothless{
+
+.bezaras:hover .toothless {
     background-image: url(./Gifek/Toothless.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
 }
-.bezaras:hover .chipi{
+
+.bezaras:hover .chipi {
     background-image: url(./Gifek/Chipi.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
 }
-.bezaras:hover .bird{
+
+.bezaras:hover .bird {
     background-image: url(./Gifek/Bird.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
 }
 
-.bezaras:hover .leiras{
-    visibility: visible;
-    opacity: 1;
-    transition: transform .2s;
-    transform: scale(1.1);
-    z-index: 3;
-}
-.bezaras:hover .leiras2{
+.bezaras:hover .leiras {
     visibility: visible;
     opacity: 1;
     transition: transform .2s;
@@ -169,40 +188,52 @@ h1{
     z-index: 3;
 }
 
+.bezaras:hover .leiras2 {
+    visibility: visible;
+    opacity: 1;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 3;
+}
 
 
-@keyframes KAT{
-    0%{
+
+@keyframes KAT {
+    0% {
         background-image: url(./kepek/Smuvurf\ cavat.jpg);
-        
+
     }
-    
-    33%{
+
+    33% {
         background-image: url(./kepek/Pineappleowl.png);
     }
-    66%{     
-        
+
+    66% {
+
         background-image: url(./kepek/strawberryelephant.png);
-        
+
     }
-    100%{
+
+    100% {
         background-image: url(./kepek/Smuvurf\ cavat.jpg);
     }
-        
+
 }
 
 @keyframes GIFEK {
-    0%{       
+    0% {
         background-image: url(./Gifek/pineappleowl.gif);
     }
-    
-    33%{
+
+    33% {
         background-image: url(./Gifek/Smurfcat.gif);
     }
-    66%{
+
+    66% {
         background-image: url(./Gifek/Strawberryelephant.gif);
     }
-    100%{
+
+    100% {
         background-image: url(./Gifek/pineappleowl.gif);
     }
 }

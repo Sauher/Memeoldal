@@ -44,7 +44,7 @@ menu{
   height: 7vh;
   background-color: rgba(114,46,127,255);
 }
-.gomb:hover{
+.az:hover{
     background-color: #666666;
     border-color: white ;
 }
@@ -80,7 +80,7 @@ menu{
             border: none;
             border-radius: 0px;
             text-decoration: none;
-            font-size: 3vw;
+            font-size: 2.5vw;
             display: block;
             padding-top: 20px;
           }
@@ -112,6 +112,5 @@ menu{
   }
   .arnyek {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding-right: 5500%;
   }
   

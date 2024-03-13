@@ -1,5 +1,5 @@
 body{
-    background-color: #722E7F;
+    background-color: #722e7f;
     font-family: "Noto Sans", sans-serif;
     color: white;
     font-weight:bolder  ;
@@ -25,9 +25,13 @@ th{
 }
 td{
     border-top: 2px solid white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     padding-top: 7px;
     text-indent: 4px;
+}
+td a:hover{
+    text-shadow: rgba(0, 0, 0, 2) 0px 10px 20px;
+    color: #fae7ff;
 }
 td:last-child{
     padding-bottom: 3px;
@@ -48,4 +52,11 @@ hr{
 }
 .flex{
     flex-direction: column;
+}
+h2{
+    font-size: 3.4vw;
+    margin-bottom: 0px;
+}
+p{
+    font-size: 2vw;
 }

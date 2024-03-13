@@ -1,11 +1,11 @@
-body{
+body {
     background-color: #722E7F;
     font-family: "Noto Sans", sans-serif;
     color: white;
     font-weight: bolder;
 }
 
-.flex-container{
+.flex-container {
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -13,7 +13,7 @@ body{
     margin: auto 0;
 }
 
-h1{
+h1 {
     text-align: left;
     color: white;
     margin-left: 10px;
@@ -25,7 +25,7 @@ h1{
     margin-bottom: 1em;
 }
 
-.link{
+.link {
     font-size: 0.5em;
     color: white;
 }
@@ -36,7 +36,8 @@ h1{
     text-decoration: none;
 }
 
-p, ul {
+p,
+ul {
     margin-bottom: 0px;
     margin-top: 0px;
 }

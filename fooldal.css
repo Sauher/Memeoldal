@@ -15,7 +15,7 @@ body {
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 180%;
     text-align: center;
 }
 
@@ -76,7 +76,8 @@ h2 {
 h1 {
     text-align: center;
     color: white;
-    margin: 2em;
+    margin-top: 2em;
+    font-size: 260%;
 }
 
 .freddy {
@@ -236,4 +237,102 @@ h1 {
     100% {
         background-image: url(./Gifek/pineappleowl.gif);
     }
+}
+@media only screen and (max-width: 450px) {
+
+    .imag {
+        height: 14rem;
+        width: 17.5rem;
+        margin: 0.2em;
+        margin-bottom: 1.9em;
+    
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .leiras {
+        position: absolute;
+        text-align: center;
+        color: white;
+        background: rgba(109, 109, 109, 0.72);
+        top: 62.9%;
+        font-size: 200%;
+        left: 0.8%;
+        visibility: hidden;
+        opacity: 0;
+        width: 98.5%;
+        line-height: 80%;
+        height: 28%;
+    
+    }
+    
+    .leiras2 {
+        position: absolute;
+        text-align: center;
+        color: white;
+        background: rgba(109, 109, 109, 0.72);
+        top: 62.9%;
+        font-size: 130%;
+        left: 0.77%;
+        visibility: hidden;
+        opacity: 0;
+        width: 98.5%;
+        height: 28.3%;
+        line-height: 110%;
+        margin: 0 auto;
+    }
+
+
+}
+@media only screen and (max-width: 300px) {
+
+    .imag {
+        height: 10rem;
+        width: 11.8rem;
+        margin: 0.2em;
+        margin-bottom: 1.9em;
+    
+        background-size: cover;
+        background-position: center;
+    
+    }
+    h1{
+        font-size: 200%;
+    }
+    h2{
+        font-size: 160%;
+    }
+    .leiras {
+        position: absolute;
+        text-align: center;
+        color: white;
+        background: rgba(109, 109, 109, 0.72);
+        top: 59%;
+        font-size: 140%;
+        left: 0.8%;
+        visibility: hidden;
+        opacity: 0;
+        width: 97.8%;
+        line-height: 80%;
+        height: 28%;
+    
+    }
+    
+    .leiras2 {
+        position: absolute;
+        text-align: center;
+        color: white;
+        background: rgba(109, 109, 109, 0.72);
+        top: 59%;
+        font-size: 70%;
+        left: 0.77%;
+        visibility: hidden;
+        opacity: 0;
+        width: 98.5%;
+        height: 28.3%;
+        line-height: 110%;
+        margin: 0 auto;
+    }
+
+
 }

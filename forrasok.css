@@ -23,6 +23,8 @@ h1 {
 
 #margin {
     margin-bottom: 1em;
+    background-color: #7b308a;
+    border-radius: 15px;
 }
 
 .link {

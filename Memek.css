@@ -4,11 +4,11 @@ body{
     color: white;
     font-weight:bolder  ;
 }
-h1{
-    font-size: 6vw;
+.sum{
+    font-size: 2.1vw;
 }
-sum{
-    font-size: 3vw;
+h1{
+    font-size: 5vw;
 }
 table{
     border: 2px solid white;
@@ -21,11 +21,11 @@ a{
     text-decoration: none;
 }
 th{
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 td{
     border-top: 2px solid white;
-    font-size: 2.5vw;
+    font-size: 20px;
     padding-top: 7px;
     text-indent: 4px;
 }
@@ -46,17 +46,25 @@ hr{
 }
 
 .kepek{
-    float: right;
-    height: 13vh;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.kep{
+    height: 15vh;
+    width: 20vh;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 .flex{
     flex-direction: column;
 }
 h2{
-    font-size: 3.4vw;
+    font-size: 2.6vw;
     margin-bottom: 0px;
 }
 p{
-    font-size: 2vw;
+    font-size: 1.5vw;
 }

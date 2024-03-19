@@ -6,20 +6,26 @@ body {
 }
 
 .oszlop {
-    width: 33.3%;
-    float: left;
+    height: 25em;
+    width: 18em;
+    margin: 0.2em;
+    margin-bottom: 1.9em;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto 0;
+    margin-right: 20px;
 }
 
-.oliver {
-    padding-left: 40px;
-    display: block;
-    width: 20vh;
+.en {
+    background-image: url(./emberek/en.png);
 }
 
 .beni {
-    display: block;
-    width: 20vh;
-    padding-left: 40px;
+    background-image: url(./emberek/beni.png);
 }
 
 main {
@@ -29,4 +35,12 @@ main {
 .geri {
     padding-left: 40px;
     width: 20vh;
+    display: block;
+}
+.flex{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto 0;
 }

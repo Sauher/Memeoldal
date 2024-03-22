@@ -81,11 +81,11 @@ h1 {
 }
 
 .freddy {
-    background-image: url(./kepek/OMG\ GUYS\ IS\ THAT\ FREDDY\ FAZBEAR.jpg);
+    background-image: url(../kepek/OMG\ GUYS\ IS\ THAT\ FREDDY\ FAZBEAR.jpg);
 }
 
 .whistle {
-    background-image: url(./kepek/Whsitle.jpg);
+    background-image: url(../kepek/Whsitle.jpg);
 }
 
 .smurfcat {
@@ -99,35 +99,35 @@ h1 {
 }
 
 .johnpork {
-    background-image: url(./kepek/John\ Pork.jpeg);
+    background-image: url(../kepek/John\ Pork.jpeg);
 }
 
 .bober {
-    background-image: url(./kepek/bober-kurwa.png);
+    background-image: url(../kepek/bober-kurwa.png);
 }
 
 .toothless {
-    background-image: url(./kepek/toothless.png);
+    background-image: url(../kepek/toothless.png);
 }
 
 .chipi {
-    background-image: url(./kepek/Chipi.jpg);
+    background-image: url(../kepek/Chipi.jpg);
 }
 
 .bird {
-    background-image: url(./kepek/Erosion.jpg);
+    background-image: url(../kepek/Erosion.jpg);
 }
 
 .bezaras:hover .freddy {
     transition: transform .2s;
-    background-image: url(./Gifek/Freddy.gif);
+    background-image: url(../Gifek/Freddy.gif);
     transform: scale(1.1);
     z-index: 2;
 
 }
 
 .bezaras:hover .whistle {
-    background-image: url(./Gifek/Whistle.gif);
+    background-image: url(../Gifek/Whistle.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
@@ -147,35 +147,35 @@ h1 {
 }
 
 .bezaras:hover .johnpork {
-    background-image: url(./Gifek/John\ Pork.gif);
+    background-image: url(../Gifek/John\ Pork.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
 }
 
 .bezaras:hover .bober {
-    background-image: url(./Gifek/Bober.gif);
+    background-image: url(../Gifek/Bober.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
 }
 
 .bezaras:hover .toothless {
-    background-image: url(./Gifek/Toothless.gif);
+    background-image: url(../Gifek/Toothless.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
 }
 
 .bezaras:hover .chipi {
-    background-image: url(./Gifek/Chipi.gif);
+    background-image: url(../Gifek/Chipi.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
 }
 
 .bezaras:hover .bird {
-    background-image: url(./Gifek/Bird.gif);
+    background-image: url(../Gifek/Bird.gif);
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 2;
@@ -201,41 +201,41 @@ h1 {
 
 @keyframes KAT {
     0% {
-        background-image: url(./kepek/Smuvurf\ cavat.jpg);
+        background-image: url(../kepek/Smuvurf\ cavat.jpg);
 
     }
 
     33% {
-        background-image: url(./kepek/Pineappleowl.png);
+        background-image: url(../kepek/Pineappleowl.png);
     }
 
     66% {
 
-        background-image: url(./kepek/strawberryelephant.png);
+        background-image: url(../kepek/strawberryelephant.png);
 
     }
 
     100% {
-        background-image: url(./kepek/Smuvurf\ cavat.jpg);
+        background-image: url(../kepek/Smuvurf\ cavat.jpg);
     }
 
 }
 
 @keyframes GIFEK {
     0% {
-        background-image: url(./Gifek/pineappleowl.gif);
+        background-image: url(../Gifek/pineappleowl.gif);
     }
 
     33% {
-        background-image: url(./Gifek/Smurfcat.gif);
+        background-image: url(../Gifek/Smurfcat.gif);
     }
 
     66% {
-        background-image: url(./Gifek/Strawberryelephant.gif);
+        background-image: url(../Gifek/Strawberryelephant.gif);
     }
 
     100% {
-        background-image: url(./Gifek/pineappleowl.gif);
+        background-image: url(../Gifek/pineappleowl.gif);
     }
 }
 @media only screen and (max-width: 450px) {

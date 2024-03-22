@@ -21,11 +21,11 @@ body {
 }
 
 .en {
-    background-image: url(./emberek/en.png);
+    background-image: url(../emberek/en.png);
 }
 
 .beni {
-    background-image: url(./emberek/beni.png);
+    background-image: url(../emberek/beni.png);
 }
 
 main {
@@ -33,9 +33,7 @@ main {
 }
 
 .geri {
-    padding-left: 40px;
-    width: 20vh;
-    display: block;
+   background-image: url(../emberek/geri.png);
 }
 .flex{
     justify-content: center;

@@ -68,3 +68,7 @@ h2{
 p{
     font-size: 1.5vw;
 }
+.egesz{
+    float: left;
+    width: 100%;
+}

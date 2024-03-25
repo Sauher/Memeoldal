@@ -6,10 +6,9 @@ body {
 }
 
 .oszlop {
-    height: 25em;
-    width: 18em;
+    background-color: #7b308a;
+    width: 20em;
     margin: 0.2em;
-    margin-bottom: 1.9em;
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -18,27 +17,29 @@ body {
     flex-wrap: wrap;
     margin: auto 0;
     margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .en {
-    background-image: url(../emberek/en.png);
+    width: 18em;
+    height: 25em;
+    margin: 20px;
+    border-radius: 10px;
 }
-
-.beni {
-    background-image: url(../emberek/beni.png);
-}
-
 main {
     padding-top: 50px;
 }
 
-.geri {
-   background-image: url(../emberek/geri.png);
-}
 .flex{
     justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto 0;
+}
+span{
+    text-align: center;
+    display: block;
+    clear: both;
 }

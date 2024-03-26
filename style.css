@@ -1,120 +1,133 @@
-menu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background: linear-gradient(90deg, rgba(148,34,188,1) 0%, rgba(68,68,68,1) 73%);
-    padding: 8px;
-    margin-top: -8px;
-    margin-left: -8px;
-    height: 7.82vh;
-    width: 100%;
+menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: linear-gradient(90deg, rgba(148, 34, 188, 1) 0%, rgba(68, 68, 68, 1) 73%);
+  padding: 8px;
+  margin-top: -8px;
+  margin-left: -8px;
+  height: 7.82vh;
+  width: 100%;
 }
-.logonagy{
+
+.logonagy {
   height: 9.9vh;
   margin-top: -8px;
   margin-left: -8px;
 }
-.az{  
-    margin-left: 5vw;
-    margin-right: 5vw;
-    padding-top:  2vh;
-    padding-bottom: 2vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    border: 2px solid rgba(148,34,188,1) ;
-    border-radius: 60px;
-    font-size: 1.5vw;
-    color: white;
-    text-decoration: none;
-    font-family: "Noto Sans", sans-serif;
-    background-color: black ;
+
+.az {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  border: 2px solid rgba(148, 34, 188, 1);
+  border-radius: 60px;
+  font-size: 1.5vw;
+  color: white;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+  background-color: black;
 }
-.flex-containeri{
+
+.flex-containeri {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   width: 100%;
 }
-.az2{
+
+.az2 {
   color: white;
 }
-.logo{
+
+.logo {
   margin-top: -8px;
   margin-left: -8px;
   height: 7vh;
-  background-color: rgba(114,46,127,255);
+  background-color: rgba(114, 46, 127, 255);
 }
-.az:hover{
-    background-color: #666666;
-    border-color: white ;
+
+.az:hover {
+  background-color: #666666;
+  border-color: white;
 }
-.topnav{
-    display: none;
+
+.topnav {
+  display: none;
 }
+
 @media only screen and (max-width: 1000px) {
-        .gomb{
-            display: none; 
-        }
-        menu{
-          display: none;
-        }
-        .topnav {
-            margin-top: -8px;
-            margin-left: -8px;
-            padding-left: 8px;
-            padding-right: 8px;
-            width: 100%;
-            display: flex;
-            position: relative;
-            overflow: hidden;
-            min-height: 4.1vh;
-            background: linear-gradient(90deg, rgba(148,34,188,1) 0%, rgba(68,68,68,1) 73%);
-          }
-          
-          .topnav #myLinks {
-            display: none;
-          }
-          
-          .topnav a {
-            padding-left: 5px;
-            border: none;
-            border-radius: 0px;
-            text-decoration: none;
-            font-size: 2.5vw;
-            display: block;
-            padding-top: 20px;
-          }
-          .topnav a:first-child{
-            padding-top: 5px;
-          }
-          .topnav a:last-child{
-            padding-bottom: 5px;
-          }
-          
-          .topnav a.icon {
-            top: 0;
-            right: 0;
-            font-size: 2vh;
-            height: 100%;
-            color: white;
-            border: none;
-            border-radius: 0px;
-            margin: 0px;
-            padding-top: 1vh;
-            padding-left: 1vh;
-            padding-right: 1vh;
-            background: black;
-            display: block;
-            position: absolute;
-            right: 0;
-            top: 0;
-          }
+  .gomb {
+    display: none;
   }
-  .arnyek {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  menu {
+    display: none;
   }
-  footer{
-    color: #858585;
-    text-align: center;
+
+  .topnav {
+    margin-top: -8px;
+    margin-left: -8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    min-height: 4.1vh;
+    background: linear-gradient(90deg, rgba(148, 34, 188, 1) 0%, rgba(68, 68, 68, 1) 73%);
   }
-  
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    padding-left: 5px;
+    border: none;
+    border-radius: 0px;
+    text-decoration: none;
+    font-size: 2.5vw;
+    display: block;
+    padding-top: 20px;
+  }
+
+  .topnav a:first-child {
+    padding-top: 5px;
+  }
+
+  .topnav a:last-child {
+    padding-bottom: 5px;
+  }
+
+  .topnav a.icon {
+    top: 0;
+    right: 0;
+    font-size: 2vh;
+    height: 100%;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.arnyek {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+  color: #858585;
+  text-align: center;
+}

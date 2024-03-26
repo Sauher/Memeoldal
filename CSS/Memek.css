@@ -1,101 +1,120 @@
-body{
+body {
     background-color: #722e7f;
     font-family: "Noto Sans", sans-serif;
     color: white;
-    font-weight:bolder  ;
+    font-weight: bolder;
 }
-.sum{
+
+.sum {
     font-size: 25px;
 }
-h1{
+
+h1 {
     font-size: 55px;
 }
-table{
+
+table {
     border: 2px solid white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 26vw;
     border-radius: 20px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
-th{
+
+th {
     font-size: 33px;
 }
-td{
+
+td {
     border-top: 2px solid white;
     font-size: 20px;
     padding-top: 7px;
     text-indent: 4px;
 }
-td a:hover{
+
+td a:hover {
     text-shadow: rgba(0, 0, 0, 2) 0px 10px 20px;
     color: #fae7ff;
 }
-td:last-child{
+
+td:last-child {
     padding-bottom: 3px;
 }
-.fel{
+
+.fel {
     padding-left: 10px;
     width: 68%;
     float: left;
     background-color: #7b308a;
     border-radius: 10px;
 }
-.fel2{
+
+.fel2 {
     float: right;
     width: 30%;
     background-color: #7b308a;
     border-radius: 10px;
     padding-bottom: 20px;
 }
-hr{
+
+hr {
     width: 98%;
     height: 3px;
     background-color: white;
 }
 
-.kepek{
+.kepek {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width:  60%;
+    width: 60%;
     margin-top: 30px;
     text-align: center;
     background-color: #722e7f;
     border-radius: 10px;
 }
-.kep{
+
+.kep {
     border-radius: 10px;
     height: 180px;
     width: 150px;
     margin: 0 auto;
     margin-top: 30px;
 }
-.flex{
+
+.flex {
     flex-direction: column;
 }
-h2{
+
+h2 {
     font-size: 30px;
     margin-bottom: 0px;
     text-indent: 5px;
 }
-p{
+
+p {
     font-size: 15px;
 }
-.egesz{
+
+.egesz {
     float: left;
     width: 100%;
 }
+
 @media only screen and (max-width: 1000px) {
-    p{
+    p {
         font-size: 12px;
     }
-    h2{
+
+    h2 {
         font-size: 25px;
     }
-    h1{
+
+    h1 {
         font-size: 40px;
     }
 }

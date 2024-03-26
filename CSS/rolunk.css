@@ -27,18 +27,20 @@ body {
     margin: 20px;
     border-radius: 10px;
 }
+
 main {
     padding-top: 50px;
 }
 
-.flex{
+.flex {
     justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto 0;
 }
-span{
+
+span {
     text-align: center;
     display: block;
     clear: both;

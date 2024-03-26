@@ -37,14 +37,21 @@ td:last-child{
     padding-bottom: 3px;
 }
 .fel{
-    width: 70%;
+    padding-left: 10px;
+    width: 68%;
     float: left;
+    background-color: #7b308a;
+    border-radius: 10px;
 }
 .fel2{
     float: right;
     width: 30%;
+    background-color: #7b308a;
+    border-radius: 10px;
+    padding-bottom: 20px;
 }
 hr{
+    width: 98%;
     height: 3px;
     background-color: white;
 }
@@ -53,10 +60,14 @@ hr{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    width:  60%;
     margin-top: 30px;
     text-align: center;
+    background-color: #722e7f;
+    border-radius: 10px;
 }
 .kep{
+    border-radius: 10px;
     height: 180px;
     width: 150px;
     margin: 0 auto;
@@ -68,6 +79,7 @@ hr{
 h2{
     font-size: 30px;
     margin-bottom: 0px;
+    text-indent: 5px;
 }
 p{
     font-size: 15px;

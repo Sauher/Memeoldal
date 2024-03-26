@@ -4,14 +4,19 @@ body {
     font-weight: bolder;
     color: white;
 }
-
+.hatter{
+    background-color: #7b308a;
+    border-radius: 10px;
+}
 .flex-container {
     justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto 0;
-
+    background-color: #7b308a;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -24,7 +29,7 @@ h2 {
     width: 25em;
     margin: 0.2em;
     margin-bottom: 1.9em;
-
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
 
@@ -76,7 +81,7 @@ h2 {
 h1 {
     text-align: center;
     color: white;
-    margin-top: 2em;
+    margin-top: 0.5em;
     font-size: 260%;
 }
 

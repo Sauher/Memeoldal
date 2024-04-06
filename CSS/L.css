@@ -1,0 +1,37 @@
+body {
+    color: red;
+    background-color: black;
+    font-size: 1.7em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.asd {
+    display: inline;
+    width: 20%;
+}
+
+.dsa {
+    float: right;
+    width: 20%;
+}
+
+.fz {
+    width: 100%;
+    display: inline;
+}
+
+.turr {
+    width: 30%;
+    display: inline;
+    justify-content: right;
+}
+
+h2{
+    font-size: 20em;
+    text-align: center;
+}

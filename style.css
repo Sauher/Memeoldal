@@ -130,4 +130,6 @@ menu {
 footer {
   color: #858585;
   text-align: center;
+  background: linear-gradient(90deg, rgba(148, 34, 188, 1) 0%, rgba(68, 68, 68, 1) 73%);
+  margin-top: 5px;
 }

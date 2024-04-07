@@ -118,3 +118,19 @@ p {
         font-size: 40px;
     }
 }
+@media only screen and (max-width: 910px) {
+  .kep{
+    width: 75px;
+    height: 90px;
+  }
+}
+@media only screen and (max-width: 670px) {
+ .fel2{
+    float:  left;
+    width: 100%;
+ }
+ .fel{
+    width: 98%;
+    margin-bottom: 10px;
+ }
+}
